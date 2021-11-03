@@ -1,0 +1,18 @@
+.reel-window {
+	position: relative;
+	max-width: 150px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.sym {
+	width: 95%;
+	position: absolute;
+	border: 3px solid #aaaaaa;
+	transition: top 0.5s linear;
+}
+
+small {
+	font-size: 0.6rem;
+}

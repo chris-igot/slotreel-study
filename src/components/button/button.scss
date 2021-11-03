@@ -1,0 +1,16 @@
+.button {
+	border: 1px solid gray;
+	box-shadow: none;
+	padding: 0.2rem;
+	cursor: pointer;
+	background-color: #aaaaaa;
+	outline: none;
+	&:hover {
+		background-color: #999999;
+		box-shadow: 0px 0px 0px 2px gray;
+	}
+	&:active {
+		background-color: #888888;
+		box-shadow: 0px 0px 0px 4px gray;
+	}
+}

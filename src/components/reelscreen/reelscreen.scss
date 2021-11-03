@@ -1,0 +1,24 @@
+.reel-window {
+	border: 1px solid black;
+}
+
+.reel-0 {
+	grid-area: reel01;
+}
+.reel-1 {
+	grid-area: reel02;
+}
+.reel-2 {
+	grid-area: reel03;
+}
+.reel-3 {
+	grid-area: reel04;
+}
+.reel-4 {
+	grid-area: reel05;
+}
+
+.reel-screen {
+	display: grid;
+	grid-template-areas: 'reel01 reel02 reel03 reel04 reel05';
+}
